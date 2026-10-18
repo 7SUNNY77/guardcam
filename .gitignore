@@ -1,0 +1,25 @@
+# Данные и кэши — не в репозиторий
+data/
+cache/
+alerts/
+*.zip
+*.part
+
+# Чекпоинты PyTorch (в репо только ONNX)
+*.pt
+*.pth
+models/*_prep.onnx
+models/q_*.onnx
+models/dbg_*.onnx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
